@@ -15,6 +15,6 @@ PRODUCT_MANUFACTURER := Sony
 PRODUCT_MODEL := LT22i
 
 PRODUCT_COPY_FILES += \
-    device/sony/nypon/prebuilt/bootrec-device:root/sbin/bootrec \
+    device/sony/nypon/prebuilt/bootrec-device:root/sbin/bootrec-device \
     device/sony/nypon/prebuilt/logo.rle:root/logo.rle \
     device/sony/nypon/prebuilt/initlogo.rle:root/initlogo.rle
