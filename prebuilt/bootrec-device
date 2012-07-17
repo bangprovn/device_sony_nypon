@@ -1,0 +1,16 @@
+#!/sbin/sh
+
+
+# short vibration
+echo '200' > /sys/class/timed_output/vibrator/enable
+# softkey backlight on
+echo '255' > /sys/class/leds/button-backlight/brightness
+# check for volume key presses
+cat /dev/input/event2 > /dev/keycheck&
+# wait 3 seconds
+sleep 3
+
+
+echo '0' > /sys/class/leds/button-backlight/brightness
+
+kill -9 $!
