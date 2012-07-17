@@ -1,6 +1,9 @@
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
+#call the commons
+$(call inherit-product, device/sony/u8500_common/montblanc.mk)
+
 # proprietary side of the device
 $(call inherit-product-if-exists, vendor/sony/nypon/nypon-vendor.mk)
 
