@@ -2,7 +2,7 @@
 
 TARGET_KERNEL_SOURCE := kernel/sony/u8500
 #TARGET_KERNEL_CONFIG := cyanogen_zeus_defconfig
-TARGET_PREBUILT_KERNEL := device/semc/zeus/prebuilt/kernel
+TARGET_PREBUILT_KERNEL := device/sony/nypon/prebuilt/kernel
 
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/sony/nypon/recovery/recovery_keys.c
 
