@@ -1,4 +1,3 @@
-
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 #call the commons
@@ -19,4 +18,4 @@ PRODUCT_COPY_FILES += \
     device/sony/nypon/prebuilt/logo.rle:root/logo.rle \
     device/sony/nypon/prebuilt/initlogo.rle:root/initlogo.rle \
     device/sony/nypon/prebuilt/init.st-ericsson.rc:root/init.st-ericsson.rc \
-    device/sony/nypon/recovery.fstab:root/etc/recovery.fstab
+    device/sony/nypon/recovery.fstab:root/recovery.fstab
