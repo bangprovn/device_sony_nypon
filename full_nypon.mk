@@ -18,4 +18,5 @@ PRODUCT_COPY_FILES += \
     device/sony/nypon/prebuilt/bootrec-device:root/sbin/bootrec-device \
     device/sony/nypon/prebuilt/logo.rle:root/logo.rle \
     device/sony/nypon/prebuilt/initlogo.rle:root/initlogo.rle \
-    device/sony/pepper/prebuilt/init.st-ericsson.rc:root/init.st-ericsson.rc
+    device/sony/nypon/prebuilt/init.st-ericsson.rc:root/init.st-ericsson.rc \
+    device/sony/nypon/recovery.fstab:root/etc/recovery.fstab
