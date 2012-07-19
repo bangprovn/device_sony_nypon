@@ -30,8 +30,13 @@ on early-boot
     # and property service is initialized
     exec /sbin/fota-ua c
 
-    # Start the offline charging (This blocks booting further in some cases)
-    exec /system/bin/chargemon
+    stop tad
+
+    # Recovery trigger which will further Start the offline charging (This blocks booting further in some cases)
+    exec /sbin/bootrec
+
+
+    start tad
 
     # Make sure the crashsms/crashes are writable by crashmonitor
     
