@@ -1,3 +1,2 @@
 add_lunch_combo nypon-eng
 add_lunch_combo cm_nypon-userdebug
-add_lunch_combo aokp_nypon-userdebug
